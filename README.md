@@ -7,6 +7,12 @@ To start your web pack server on localhost:8080:
 ````
 webpack-dev-server --progress --colors
 ````
+## Git Commands for switching back to master branch
+````
+git checkout master
+````
+
+
 ## Git Commands for push/pull
 
 Command for updating local with changes from remote.
