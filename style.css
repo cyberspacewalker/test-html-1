@@ -1,35 +1,57 @@
+
 body {
-	font-family: Courier, sans-serif;
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
+    background-color: #ddd;
 }
 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 50px;
+    direction: ltr;
+}
+
+#my-flex-container-thing {
+    background-color: purple;
+}
+
+.flex-item {
+    background-color: green;
+    width: 5em;
+    height: 1.5em;
+    margin: 1em;
+    font-size: 0.9em;
+    color: white;
+    font-family: sans-serif;
+}
+
+
 h1 {
-	font-size: 40px;
-	text-align: center;
+    font-size: 3em;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 h2 {
-	font-size: 20px;
-	text-align: center;
-	border-style: inset;
-	border: 2px solid black;
+    font-size: 1.5em;
+    text-align: center;
+    border-style: inset;
+    border: 2px solid black;
 }
 
 h3 {
-  font-size: 16px;
-  text-align: left;
+    text-align: center;
+    font-size: 1.2em;
+    text-align: left;
 }
 
 p {
-	font-size: 12px;
-	text-align: left;
-	text-indent: 10px;
+    font-size: 1.0em;
+    text-align: left;
+    text-indent: 10px;
 }
 
 footer {
-  font-size: 10px;
-	text-align: center;
+    font-size: 10px;
+    text-align: center;
 }
